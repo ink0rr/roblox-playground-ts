@@ -1,10 +1,6 @@
 import * as PlayerUtil from "shared/player_util"
 
-const collectionService = game.GetService("CollectionService")
-const swords = collectionService.GetTagged("Sword")
-
-swords.forEach((i) => {
-  let sword = i as Sword
+function initialize(sword: Sword){
   let activated = false
   let cooldown = false
 
@@ -36,4 +32,9 @@ swords.forEach((i) => {
   }
   sword.Blade.Tip.Touched.Connect((otherPart) => onHit(otherPart as Part))
   sword.Blade.Body.Touched.Connect((otherPart) => onHit(otherPart as Part))
-})
+}
+
+const collectionService = game.GetService("CollectionService")
+const swords = collectionService.GetTagged("Sword")
+swords.forEach((i) => initialize(i as Sword))
+collectionService.GetInstanceAddedSignal("Sword").Connect((i) => initialize(i as Sword))
