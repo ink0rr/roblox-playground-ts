@@ -1,14 +1,14 @@
-import * as PlayerUtil from "shared/player_util"
+import * as Utils from "shared/utils"
 
 const runService = game.GetService("RunService")
-const localPlayer = PlayerUtil.getLocalPlayer()
+const localPlayer = Utils.getLocalPlayer()
 const camera = game.Workspace.CurrentCamera as Camera
 
-const cameraDepth = 16
+const cameraDepth = 10
 
 let character: Model
 localPlayer.CharacterAdded.Connect((model) => {
-  character = PlayerUtil.getCharacter() as Model
+  character = Utils.getCharacter() as Model
 })
 
 function isometricCamera() {
@@ -19,7 +19,7 @@ function isometricCamera() {
       let humanoidRootPos = humanoidRoot.Position.mul(cameraOffset)
       let cameraPos = new Vector3(
         humanoidRootPos.X + cameraDepth,
-        24,
+        cameraDepth * 1.5,
         humanoidRootPos.Z + cameraDepth
       )
 
@@ -30,10 +30,6 @@ function isometricCamera() {
 }
 
 runService.RenderStepped.Connect(() => {
-  if (!character) character = PlayerUtil.getCharacter() as Model
+  if (!character) character = Utils.getCharacter() as Model
 })
-runService.BindToRenderStep(
-  "IsometricCamera",
-  Enum.RenderPriority.Camera.Value + 1,
-  isometricCamera
-)
+//runService.BindToRenderStep("IsometricCamera", Enum.RenderPriority.Camera.Value + 1, isometricCamera)

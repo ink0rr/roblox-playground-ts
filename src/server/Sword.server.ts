@@ -1,4 +1,4 @@
-import * as PlayerUtil from "shared/player_util"
+import * as Utils from "shared/utils"
 
 function initialize(sword: Sword){
   let activated = false
