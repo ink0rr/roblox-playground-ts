@@ -1,5 +1,5 @@
 {
-  "name": "roblox-playground",
+  "name": "roblox-playground-ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "@rbxts/compiler-types": "^1.0.0-types.0",
-    "@rbxts/types": "^1.0.464"
+    "@rbxts/types": "^1.0.480"
   }
 }
