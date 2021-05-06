@@ -1,3 +1,8 @@
+
+export function getGui(): ScreenGui {
+	return getLocalPlayer().FindFirstChildOfClass("PlayerGui")?.WaitForChild("ScreenGui") as ScreenGui
+}
+
 export function getLocalPlayer(): Player {
 	return game.GetService("Players").LocalPlayer
 }
@@ -8,13 +13,9 @@ export function getCharacter(): Model | undefined {
 	return localPlayer.Character
 }
 
-export function getHumanoid(character: Part | undefined = undefined): Humanoid {
+export function getHumanoid(character: Model | undefined = undefined): Humanoid {
 	let currentCharacter = character === undefined ? getCharacter() : character
 	return currentCharacter?.WaitForChild("Humanoid") as Humanoid
-}
-
-export function getGui(): ScreenGui {
-	return getLocalPlayer().FindFirstChildOfClass("PlayerGui")?.WaitForChild("ScreenGui") as ScreenGui
 }
 
 export function getHumanoidAnimator(humanoid: Humanoid | undefined = undefined): Animator {
