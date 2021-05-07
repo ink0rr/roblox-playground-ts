@@ -3,4 +3,5 @@
 /include
 /.idea
 *.tsbuildinfo
-*.lock
+*.rbxlx
+*.rbxlx.lock
