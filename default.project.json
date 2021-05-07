@@ -39,7 +39,7 @@
 			"$properties": {
 				"FilteringEnabled": true
 			},
-			"$path": "src/assets"
+			"$path": "out/assets"
 		},
 		"HttpService": {
 			"$className": "HttpService",
