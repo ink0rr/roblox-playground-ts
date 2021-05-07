@@ -1,16 +1,11 @@
 type Sword = Tool & {
-	Handle: Part & {
-		TouchInterest: TouchTransmitter;
+	Blade: Part & {
+		Weld: Weld;
 	};
 	Guard: Part & {
 		Weld: Weld;
 	};
-	Blade: Model & {
-		Body: Part & {
-			Weld: Weld;
-		};
-		Tip: WedgePart & {
-			Weld: Weld;
-		};
+	Handle: Part & {
+		TouchInterest: TouchTransmitter;
 	};
 }

@@ -1,3 +1,3 @@
-import { makeHello } from "shared/module";
+import {SwordModule} from "./sword/sword"
 
-print(makeHello("main.server.ts"));
+new SwordModule()
