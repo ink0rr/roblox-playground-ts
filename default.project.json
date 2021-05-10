@@ -23,7 +23,8 @@
 			},
 			"TS": {
 				"$path": "out/shared"
-			}
+			},
+			"$path": "out/assets/shared"
 		},
 		"StarterPlayer": {
 			"$className": "StarterPlayer",
@@ -39,7 +40,7 @@
 			"$properties": {
 				"FilteringEnabled": true
 			},
-			"$path": "out/assets"
+			"$path": "out/assets/workspace"
 		},
 		"HttpService": {
 			"$className": "HttpService",
