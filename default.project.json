@@ -26,6 +26,10 @@
 			},
 			"$path": "out/assets/shared"
 		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"$path": "out/assets/server"
+		},
 		"StarterPlayer": {
 			"$className": "StarterPlayer",
 			"StarterPlayerScripts": {
