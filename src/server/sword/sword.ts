@@ -1,5 +1,3 @@
-export{}
-
 export class SwordModule {
     constructor() {
         const collectionService = game.GetService("CollectionService")
