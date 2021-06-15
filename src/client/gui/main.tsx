@@ -1,29 +1,16 @@
 export class MainGuiModule {
 }
 
-import Roact, {update} from '@rbxts/roact'
+import Roact from '@rbxts/roact'
 import {Players} from '@rbxts/services'
+import {CustomBar} from "client/gui/CustomBar"
 
 const localPlayer = Players.LocalPlayer
 localPlayer.CharacterAdded.Wait()
 const playerGui = localPlayer.FindFirstChild("PlayerGui")
 const humanoid = localPlayer.Character?.WaitForChild("Humanoid") as Humanoid
 
-function UI() {
-    const healthBackgroundFrame: Roact.Ref<Frame> = Roact.createRef()
-    const healthFrame: Roact.Ref<Frame> = Roact.createRef()
-
-    function getBackgroundHealthSize() {
-        return new UDim2(0.8 * humanoid.MaxHealth / 250, 0, 0.1, 0)
-    }
-    function getHealthSize(health: number) {
-        return new UDim2(1 * health / humanoid.MaxHealth, 0, 1, 0)
-    }
-    humanoid.HealthChanged.Connect(health => {
-        healthBackgroundFrame?.getValue()?.TweenSize(getBackgroundHealthSize(), "Out", "Quint", 0.25)
-        healthFrame?.getValue()?.TweenSize(getHealthSize(health), "Out", "Quint", 0.25)
-    })
-
+function HUD() {
     return (
         <screengui
             ResetOnSpawn={false}>
@@ -74,28 +61,8 @@ function UI() {
                         AutomaticSize={"X"}
                         Size={new UDim2(0, 0, 0.35, 0)}
                     />
-
-                    <frame
-                        Size={getBackgroundHealthSize()}
-                        Ref={healthBackgroundFrame}
-                        BackgroundTransparency={0}
-                        BackgroundColor3={new Color3(0.5, 0.5, 0.5)}
-                        SizeConstraint={"RelativeXY"}>
-
-                        <frame
-                            Size={getHealthSize(humanoid.Health)}
-                            Ref={healthFrame}
-                            BackgroundTransparency={0}
-                            BackgroundColor3={new Color3(0, 1, 0)}
-                            SizeConstraint={"RelativeXY"}
-                        />
-                    </frame>
-
-                    <frame
-                        Size={new UDim2(0.35, 100, 0.1, 0)}
-                        BackgroundTransparency={0}
-                        BackgroundColor3={new Color3(1, 1, 0)}
-                        SizeConstraint={"RelativeXY"}
+                    <CustomBar
+                        color={new Color3(0,1,0)}
                     />
                 </frame>
             </frame>
@@ -103,4 +70,4 @@ function UI() {
     )
 }
 
-Roact.mount(<UI/>, playerGui, "UI")
+Roact.mount(<HUD/>, playerGui, "HUD")
