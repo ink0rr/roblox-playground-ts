@@ -2,7 +2,6 @@
 /out
 /include
 /.idea
-/.run
 *.tsbuildinfo
 *.rbxlx
 *.rbxlx.lock
