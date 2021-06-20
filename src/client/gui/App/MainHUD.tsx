@@ -1,20 +1,19 @@
 import Roact from '@rbxts/roact'
 import { Players } from '@rbxts/services'
 import { ImgBtn } from "../Components/ImgBtn";
-import { BackgroundFrame } from "../Components/BackgroundFrame";
+import { Wardrobe } from './Wardrobe';
 
 const localPlayer = Players.LocalPlayer
 localPlayer.CharacterAdded.Wait()
-const playerGui = localPlayer.FindFirstChild("PlayerGui")
+const playerGui = localPlayer.FindFirstChild("PlayerGui") as PlayerGui
 
 export class MainHUD {
-    scrGui: Roact.Ref<ScreenGui>
     constructor() {
-        this.scrGui = Roact.createRef<ScreenGui>()
+        let isWardrobe = false
+        let wd: Wardrobe
         const element = (
             <screengui
                 ResetOnSpawn={false}
-                Ref={this.scrGui}
             >
                 <frame
                     Position={new UDim2(0, 32, 0.6, 0)}
@@ -43,7 +42,7 @@ export class MainHUD {
                     />
                 </frame>
                 <frame
-                    Position={new UDim2(1, -32, 0.6, 0)}
+                    Position={new UDim2(1, -32, 0.5, 0)}
                     Size={new UDim2(0.1, 0, 0.1, 0)}
                     AnchorPoint={new Vector2(1, 0.5)}
                     BackgroundTransparency={1}
@@ -59,13 +58,12 @@ export class MainHUD {
                     <ImgBtn
                         Image={"rbxassetid://6978817492"}
                         onActivated={() => {
-                            Roact.mount(
-                                <BackgroundFrame
-                                    AnchorPoint={new Vector2(0.5, 0.5)}
-                                    Position={new UDim2(0.5, 0, 0.5, 0)}
-                                    Size={new UDim2(0.6, 0, 0.6, 0)}
-                                />,
-                                this.scrGui.getValue(), "BG")
+                            if (!isWardrobe) {
+                                wd = new Wardrobe(playerGui)
+                            } else {
+                                wd.destroy()
+                            }
+                            isWardrobe = !isWardrobe
                         }}
                     />
                     <ImgBtn
@@ -101,6 +99,6 @@ export class MainHUD {
                 </frame>
             </screengui>
         )
-        Roact.mount(element, playerGui, "HUD")
+        Roact.mount(element, playerGui, "MainHUD")
     }
 }

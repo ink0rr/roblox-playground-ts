@@ -4,6 +4,7 @@ interface UIProps {
     AnchorPoint: Vector2
     Position: UDim2
     Size: UDim2
+    SizeConstraint: "RelativeXY" | "RelativeXX" | "RelativeYY"
 }
 interface UIState { }
 export class BackgroundFrame extends Roact.Component<UIProps, UIState>  {
@@ -13,24 +14,22 @@ export class BackgroundFrame extends Roact.Component<UIProps, UIState>  {
     render() {
         return (
             <frame
-                BackgroundColor3={new Color3(1, 1, 1)}
+                BackgroundColor3={new Color3(0.9607843137, 0.2313725490, 0.3411764706)}
                 AnchorPoint={this.props.AnchorPoint}
                 Position={this.props.Position}
                 Size={this.props.Size}
+                SizeConstraint={this.props.SizeConstraint}
             >
                 <uicorner
-                    CornerRadius={new UDim(0, 16)}
+                    CornerRadius={new UDim(0, 8)}
                 />
-                <frame
-                    BackgroundColor3={new Color3(0.8666666667, 0.3137254902, 0.3450980392)}
-                    AnchorPoint={new Vector2(0.5, 0.5)}
-                    Position={new UDim2(0.5, 0, 0.5, 0)}
-                    Size={new UDim2(1, -12, 1, -12)}
-                >
-                    <uicorner
-                        CornerRadius={new UDim(0, 12)}
-                    />
-                </frame>
+                <uistroke
+                    ApplyStrokeMode={"Border"}
+                    Color={new Color3(1, 1, 1)}
+                    Thickness={4}
+                    LineJoinMode={"Round"}
+                />
+                {this.props[Roact.Children]}
             </frame>
         )
     }
