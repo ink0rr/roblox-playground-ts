@@ -2,21 +2,21 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Folder" referent="RBX2D11CC86585C479286132E22FA845C45">
+	<Item class="Folder" referent="64">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<string name="Name">TagList</string>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Folder" referent="RBX3F04ED2C454A4268B37E79577911FC16">
+		<Item class="Folder" referent="65">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">Zombie</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Color3Value" referent="RBX5CF5981E773F4E32A842F26FE0DA0EF3">
+			<Item class="Color3Value" referent="66">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Color</string>
@@ -30,14 +30,14 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBXFA427FB099284040A0879487CDFC97F4">
+		<Item class="Folder" referent="67">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">Sword</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Color3Value" referent="RBXE9859ABE4CDC453A9DB517161E799CCE">
+			<Item class="Color3Value" referent="68">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Color</string>
@@ -50,13 +50,34 @@
 					</Color3>
 				</Properties>
 			</Item>
-			<Item class="BoolValue" referent="RBX8EE0E4B62FB6413F96DFCC7B2D8BD930">
+			<Item class="BoolValue" referent="69">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">Visible</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 					<bool name="Value">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Folder" referent="RBXCA2E7C8FBC39444DA26442C45893D7C2">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<string name="Name">Husky</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Color3Value" referent="RBX77C6510989C540EB964F389BF423D0DC">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<string name="Name">Color</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<Color3 name="Value">
+						<R>0.205639124</R>
+						<G>0.371372551</G>
+						<B>0.0254124068</B>
+					</Color3>
 				</Properties>
 			</Item>
 		</Item>
