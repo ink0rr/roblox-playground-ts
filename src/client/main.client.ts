@@ -1,6 +1,6 @@
-import {MainGuiModule} from "client/gui/main"
+import {GuiModule} from "client/gui/GuiModule"
 
-new MainGuiModule()
+new GuiModule()
 /*
 import {IsometricCameraModule} from "./camera/isometric_camera"
 
