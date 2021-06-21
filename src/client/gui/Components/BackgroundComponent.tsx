@@ -5,7 +5,7 @@ interface UIProps {
     BackgroundColor3?: Color3
     Position: UDim2
     Size: UDim2
-    SizeConstraint?: "RelativeXY" | "RelativeXX" | "RelativeYY"
+    SizeConstraint?: Enum.SizeConstraint
 }
 interface UIState { }
 export class BackgroundComponent extends Roact.Component<UIProps, UIState>  {
