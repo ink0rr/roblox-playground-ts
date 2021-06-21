@@ -17,7 +17,7 @@ export class MainHUD {
             >
                 <frame
                     Position={new UDim2(0, 32, 0.6, 0)}
-                    Size={new UDim2(0.12, 0, 0.12, 0)}
+                    Size={new UDim2(0.15, 0, 0.15, 0)}
                     AnchorPoint={new Vector2(0, 0)}
                     BackgroundTransparency={1}
                     SizeConstraint={"RelativeYY"}
@@ -43,7 +43,7 @@ export class MainHUD {
                 </frame>
                 <frame
                     Position={new UDim2(1, -32, 0.5, 0)}
-                    Size={new UDim2(0.1, 0, 0.1, 0)}
+                    Size={new UDim2(0.12, 0, 0.12, 0)}
                     AnchorPoint={new Vector2(1, 0.5)}
                     BackgroundTransparency={1}
                     SizeConstraint={"RelativeYY"}
