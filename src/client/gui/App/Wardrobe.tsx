@@ -1,5 +1,6 @@
 import Roact from '@rbxts/roact'
 import { BackgroundComponent } from "../Components/BackgroundComponent";
+import { CardComponent } from '../Components/CardComponent';
 
 export class Wardrobe {
     playerGui: PlayerGui
@@ -15,6 +16,12 @@ export class Wardrobe {
                     Position={new UDim2(0.8, 0, 0.1, 0)}
                     Size={new UDim2(0.3, 0, 0.2, 0)}
                 >
+                    <CardComponent
+                        AnchorPoint={new Vector2(0.5, 0.5)}
+                        Position={new UDim2(0.5, 0, 0.5, 0)}
+                        Size={new UDim2(0.9, 0, 0.7, 0)}
+                    >
+                    </CardComponent>
                 </BackgroundComponent>
             </screengui>
         )
