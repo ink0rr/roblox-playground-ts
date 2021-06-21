@@ -8,7 +8,7 @@ interface UIState {
     Size: UDim2
 
 }
-export class ImgBtn extends Roact.Component<UIProps, UIState>  {
+export class ButtonComponent extends Roact.Component<UIProps, UIState>  {
     imageButtonRef: Roact.Ref<ImageButton>
     state = {
         Size: new UDim2(1, 0, 1, 0)

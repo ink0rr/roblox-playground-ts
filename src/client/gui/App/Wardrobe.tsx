@@ -1,5 +1,5 @@
 import Roact from '@rbxts/roact'
-import { BackgroundFrame } from "../Components/BackgroundFrame";
+import { BackgroundComponent } from "../Components/BackgroundComponent";
 
 export class Wardrobe {
     playerGui: PlayerGui
@@ -10,13 +10,12 @@ export class Wardrobe {
             <screengui
                 ResetOnSpawn={false}
             >
-                <BackgroundFrame
-                    AnchorPoint={new Vector2(0, 0)}
-                    Position={new UDim2(0.7, 0, 0.1, 0)}
+                <BackgroundComponent
+                    AnchorPoint={new Vector2(1, 0)}
+                    Position={new UDim2(0.8, 0, 0.1, 0)}
                     Size={new UDim2(0.3, 0, 0.2, 0)}
-                    SizeConstraint={"RelativeYY"}
                 >
-                </BackgroundFrame>
+                </BackgroundComponent>
             </screengui>
         )
         this.panel = Roact.mount(element, playerGui, "Wardrobe")

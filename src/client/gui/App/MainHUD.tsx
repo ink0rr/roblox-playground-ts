@@ -1,6 +1,6 @@
 import Roact from '@rbxts/roact'
 import { Players } from '@rbxts/services'
-import { ImgBtn } from "../Components/ImgBtn";
+import { ButtonComponent } from "../Components/ButtonComponent";
 import { Wardrobe } from './Wardrobe';
 
 const localPlayer = Players.LocalPlayer
@@ -28,13 +28,13 @@ export class MainHUD {
                         VerticalAlignment={"Top"}
                         Padding={new UDim(0, 0)}
                     />
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6979153487"}
                         onActivated={() => {
                             warn("bla")
                         }}
                     />
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6979153371"}
                         onActivated={() => {
                             warn("bla")
@@ -55,7 +55,7 @@ export class MainHUD {
                         Padding={new UDim(0, 0)}
                     />
 
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6978817492"}
                         onActivated={() => {
                             if (!isWardrobe) {
@@ -66,31 +66,31 @@ export class MainHUD {
                             isWardrobe = !isWardrobe
                         }}
                     />
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6978817965"}
                         onActivated={() => {
                             warn("bla")
                         }}
                     />
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6978817700"}
                         onActivated={() => {
                             warn("bla")
                         }}
                     />
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6978817583"}
                         onActivated={() => {
                             warn("bla")
                         }}
                     />
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6978817796"}
                         onActivated={() => {
                             warn("bla")
                         }}
                     />
-                    <ImgBtn
+                    <ButtonComponent
                         Image={"rbxassetid://6968301051"}
                         onActivated={() => {
                             warn("bla")
