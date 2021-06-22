@@ -1,6 +1,7 @@
 import Roact from '@rbxts/roact'
 import { Players } from '@rbxts/services'
 import { ButtonComponent } from "../Components/ButtonComponent";
+import { JobList } from './JobList';
 import { Wardrobe } from './Wardrobe';
 
 const localPlayer = Players.LocalPlayer
@@ -11,6 +12,8 @@ export class MainHUD {
     constructor() {
         let isWardrobe = false
         let wd: Wardrobe
+        let isJobList = false
+        let jl: JobList
         const element = (
             <screengui
                 ResetOnSpawn={false}
@@ -69,7 +72,12 @@ export class MainHUD {
                     <ButtonComponent
                         Image={"rbxassetid://6978817965"}
                         onActivated={() => {
-                            warn("bla")
+                            if (!isJobList) {
+                                jl = new JobList(playerGui)
+                            } else {
+                                jl.destroy()
+                            }
+                            isJobList = !isJobList
                         }}
                     />
                     <ButtonComponent
