@@ -1,11 +1,13 @@
 import Roact from "@rbxts/roact"
 
 interface UIProps {
+    // Frame Props
     AnchorPoint?: Vector2
-    BackgroundColor3?: Color3
     Position: UDim2
     Size: UDim2
-    SizeConstraint?: Enum.SizeConstraint
+    SizeConstraint?: Enum.SizeConstraint | "RelativeXY" | "RelativeXX" | "RelativeYY"
+    // Card Props
+    BackgroundColor3?: Color3
 }
 interface UIState { }
 export class CardComponent extends Roact.Component<UIProps, UIState>  {
@@ -18,25 +20,29 @@ export class CardComponent extends Roact.Component<UIProps, UIState>  {
     render() {
         return (
             <frame
-                BackgroundColor3={new Color3(this.props.BackgroundColor3!.R - 0.2, this.props.BackgroundColor3!.G - 0.2, this.props.BackgroundColor3!.B - 0.2)}
                 AnchorPoint={this.props.AnchorPoint}
-                Position={this.props.Position.add(new UDim2(0, 0, 0.05, 0))}
+                BackgroundTransparency={1}
+                Position={this.props.Position}
                 Size={this.props.Size}
-                SizeConstraint={this.props.SizeConstraint}
-            >
-                <uicorner
-                    CornerRadius={new UDim(0, 8)}
-                />
+                SizeConstraint={this.props.SizeConstraint}>
                 <frame
-                    BackgroundColor3={this.props.BackgroundColor3}
-                    Position={new UDim2(0, 0, -0.05, 0)}
+                    BackgroundColor3={new Color3(this.props.BackgroundColor3!.R - 0.2, this.props.BackgroundColor3!.G - 0.2, this.props.BackgroundColor3!.B - 0.2)}
+                    Position={new UDim2(0, 0, 0, 4)}
                     Size={new UDim2(1, 0, 1, 0)}
-                    SizeConstraint={this.props.SizeConstraint}
                 >
                     <uicorner
                         CornerRadius={new UDim(0, 8)}
                     />
-                    {this.props[Roact.Children]}
+                    <frame
+                        BackgroundColor3={this.props.BackgroundColor3}
+                        Position={new UDim2(0, 0, 0, -4)}
+                        Size={new UDim2(1, 0, 1, 0)}
+                    >
+                        <uicorner
+                            CornerRadius={new UDim(0, 8)}
+                        />
+                        {this.props[Roact.Children]}
+                    </frame>
                 </frame>
             </frame>
         )

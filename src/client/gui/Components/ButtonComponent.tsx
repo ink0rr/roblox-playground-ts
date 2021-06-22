@@ -6,7 +6,6 @@ interface UIProps {
 }
 interface UIState {
     Size: UDim2
-
 }
 export class ButtonComponent extends Roact.Component<UIProps, UIState>  {
     imageButtonRef: Roact.Ref<ImageButton>
