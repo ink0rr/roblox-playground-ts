@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Model" referent="86">
+	<Item class="Model" referent="3">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<token name="LevelOfDetail">0</token>
@@ -42,18 +42,18 @@
 			</Vector3>
 			<string name="Name">Husky</string>
 			<bool name="NeedsPivotMigration">false</bool>
-			<Ref name="PrimaryPart">87</Ref>
+			<Ref name="PrimaryPart">263</Ref>
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags">SHVza3k=</BinaryString>
 		</Properties>
-		<Item class="Folder" referent="88">
+		<Item class="Folder" referent="5">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">InitialPoses</string>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="CFrameValue" referent="89">
+			<Item class="CFrameValue" referent="6">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">huskyRig_c_grp_Composited</string>
@@ -75,7 +75,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="90">
+			<Item class="CFrameValue" referent="7">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">huskyRig_c_grp_Original</string>
@@ -97,7 +97,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="91">
+			<Item class="CFrameValue" referent="8">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">huskyRig_c_grp_Initial</string>
@@ -119,7 +119,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="92">
+			<Item class="CFrameValue" referent="9">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">geo_c_grp_Composited</string>
@@ -141,7 +141,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="93">
+			<Item class="CFrameValue" referent="10">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">geo_c_grp_Original</string>
@@ -163,7 +163,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="94">
+			<Item class="CFrameValue" referent="11">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">geo_c_grp_Initial</string>
@@ -185,7 +185,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="95">
+			<Item class="CFrameValue" referent="12">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">husky_c_geo_Composited</string>
@@ -207,7 +207,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="96">
+			<Item class="CFrameValue" referent="13">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">husky_c_geo_Original</string>
@@ -229,7 +229,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="97">
+			<Item class="CFrameValue" referent="14">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">husky_c_geo_Initial</string>
@@ -251,7 +251,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="98">
+			<Item class="CFrameValue" referent="15">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">skeleton_c_grp_Composited</string>
@@ -273,7 +273,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="99">
+			<Item class="CFrameValue" referent="16">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">skeleton_c_grp_Original</string>
@@ -295,7 +295,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="100">
+			<Item class="CFrameValue" referent="17">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">skeleton_c_grp_Initial</string>
@@ -317,7 +317,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="101">
+			<Item class="CFrameValue" referent="18">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">root_c_jnt_Composited</string>
@@ -339,7 +339,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="102">
+			<Item class="CFrameValue" referent="19">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">root_c_jnt_Original</string>
@@ -361,7 +361,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="103">
+			<Item class="CFrameValue" referent="20">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">root_c_jnt_Initial</string>
@@ -383,7 +383,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="104">
+			<Item class="CFrameValue" referent="21">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine01_c_jnt_Composited</string>
@@ -405,7 +405,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="105">
+			<Item class="CFrameValue" referent="22">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine01_c_jnt_Original</string>
@@ -427,7 +427,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="106">
+			<Item class="CFrameValue" referent="23">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine01_c_jnt_Initial</string>
@@ -449,7 +449,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="107">
+			<Item class="CFrameValue" referent="24">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine02_c_jnt_Composited</string>
@@ -471,7 +471,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="108">
+			<Item class="CFrameValue" referent="25">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine02_c_jnt_Original</string>
@@ -493,7 +493,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="109">
+			<Item class="CFrameValue" referent="26">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine02_c_jnt_Initial</string>
@@ -515,7 +515,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="110">
+			<Item class="CFrameValue" referent="27">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine03_c_jnt_Composited</string>
@@ -537,7 +537,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="111">
+			<Item class="CFrameValue" referent="28">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine03_c_jnt_Original</string>
@@ -559,7 +559,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="112">
+			<Item class="CFrameValue" referent="29">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">spine03_c_jnt_Initial</string>
@@ -581,7 +581,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="113">
+			<Item class="CFrameValue" referent="30">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">neck_c_jnt_Composited</string>
@@ -603,7 +603,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="114">
+			<Item class="CFrameValue" referent="31">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">neck_c_jnt_Original</string>
@@ -625,7 +625,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="115">
+			<Item class="CFrameValue" referent="32">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">neck_c_jnt_Initial</string>
@@ -647,7 +647,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="116">
+			<Item class="CFrameValue" referent="33">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">head_c_jnt_Composited</string>
@@ -669,7 +669,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="117">
+			<Item class="CFrameValue" referent="34">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">head_c_jnt_Original</string>
@@ -691,7 +691,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="118">
+			<Item class="CFrameValue" referent="35">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">head_c_jnt_Initial</string>
@@ -713,7 +713,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="119">
+			<Item class="CFrameValue" referent="36">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">headEnd_c_jnt_Composited</string>
@@ -735,7 +735,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="120">
+			<Item class="CFrameValue" referent="37">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">headEnd_c_jnt_Original</string>
@@ -757,7 +757,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="121">
+			<Item class="CFrameValue" referent="38">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">headEnd_c_jnt_Initial</string>
@@ -779,7 +779,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="122">
+			<Item class="CFrameValue" referent="39">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earBase_l_jnt_Composited</string>
@@ -801,7 +801,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="123">
+			<Item class="CFrameValue" referent="40">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earBase_l_jnt_Original</string>
@@ -823,7 +823,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="124">
+			<Item class="CFrameValue" referent="41">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earBase_l_jnt_Initial</string>
@@ -845,7 +845,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="125">
+			<Item class="CFrameValue" referent="42">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earMid_l_jnt_Composited</string>
@@ -867,7 +867,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="126">
+			<Item class="CFrameValue" referent="43">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earMid_l_jnt_Original</string>
@@ -889,7 +889,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="127">
+			<Item class="CFrameValue" referent="44">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earMid_l_jnt_Initial</string>
@@ -911,7 +911,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="128">
+			<Item class="CFrameValue" referent="45">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earEnd_l_jnt_Composited</string>
@@ -933,7 +933,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="129">
+			<Item class="CFrameValue" referent="46">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earEnd_l_jnt_Original</string>
@@ -955,7 +955,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="130">
+			<Item class="CFrameValue" referent="47">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earEnd_l_jnt_Initial</string>
@@ -977,7 +977,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="131">
+			<Item class="CFrameValue" referent="48">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earBase_r_jnt_Composited</string>
@@ -999,7 +999,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="132">
+			<Item class="CFrameValue" referent="49">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earBase_r_jnt_Original</string>
@@ -1021,7 +1021,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="133">
+			<Item class="CFrameValue" referent="50">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earBase_r_jnt_Initial</string>
@@ -1043,7 +1043,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="134">
+			<Item class="CFrameValue" referent="51">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earMid_r_jnt_Composited</string>
@@ -1065,7 +1065,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="135">
+			<Item class="CFrameValue" referent="52">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earMid_r_jnt_Original</string>
@@ -1087,7 +1087,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="136">
+			<Item class="CFrameValue" referent="53">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earMid_r_jnt_Initial</string>
@@ -1109,7 +1109,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="137">
+			<Item class="CFrameValue" referent="54">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earEnd_r_jnt_Composited</string>
@@ -1131,7 +1131,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="138">
+			<Item class="CFrameValue" referent="55">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earEnd_r_jnt_Original</string>
@@ -1153,7 +1153,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="139">
+			<Item class="CFrameValue" referent="56">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">earEnd_r_jnt_Initial</string>
@@ -1175,7 +1175,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="140">
+			<Item class="CFrameValue" referent="57">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">jaw_c_jnt_Composited</string>
@@ -1197,7 +1197,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="141">
+			<Item class="CFrameValue" referent="58">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">jaw_c_jnt_Original</string>
@@ -1219,7 +1219,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="142">
+			<Item class="CFrameValue" referent="59">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">jaw_c_jnt_Initial</string>
@@ -1241,7 +1241,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="143">
+			<Item class="CFrameValue" referent="60">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">jawEnd_c_jnt_Composited</string>
@@ -1263,7 +1263,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="144">
+			<Item class="CFrameValue" referent="61">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">jawEnd_c_jnt_Original</string>
@@ -1285,7 +1285,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="145">
+			<Item class="CFrameValue" referent="62">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">jawEnd_c_jnt_Initial</string>
@@ -1307,7 +1307,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="146">
+			<Item class="CFrameValue" referent="63">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">nose_c_jnt_Composited</string>
@@ -1329,7 +1329,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="147">
+			<Item class="CFrameValue" referent="64">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">nose_c_jnt_Original</string>
@@ -1351,7 +1351,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="148">
+			<Item class="CFrameValue" referent="65">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">nose_c_jnt_Initial</string>
@@ -1373,7 +1373,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="149">
+			<Item class="CFrameValue" referent="66">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">noseEnd_c_jnt_Composited</string>
@@ -1395,7 +1395,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="150">
+			<Item class="CFrameValue" referent="67">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">noseEnd_c_jnt_Original</string>
@@ -1417,7 +1417,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="151">
+			<Item class="CFrameValue" referent="68">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">noseEnd_c_jnt_Initial</string>
@@ -1439,7 +1439,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="152">
+			<Item class="CFrameValue" referent="69">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulderUp_l_jnt_Composited</string>
@@ -1461,7 +1461,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="153">
+			<Item class="CFrameValue" referent="70">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulderUp_l_jnt_Original</string>
@@ -1483,7 +1483,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="154">
+			<Item class="CFrameValue" referent="71">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulderUp_l_jnt_Initial</string>
@@ -1505,7 +1505,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="155">
+			<Item class="CFrameValue" referent="72">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulder_l_jnt_Composited</string>
@@ -1527,7 +1527,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="156">
+			<Item class="CFrameValue" referent="73">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulder_l_jnt_Original</string>
@@ -1549,7 +1549,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="157">
+			<Item class="CFrameValue" referent="74">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulder_l_jnt_Initial</string>
@@ -1571,7 +1571,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="158">
+			<Item class="CFrameValue" referent="75">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">elbow_l_jnt_Composited</string>
@@ -1593,7 +1593,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="159">
+			<Item class="CFrameValue" referent="76">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">elbow_l_jnt_Original</string>
@@ -1615,7 +1615,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="160">
+			<Item class="CFrameValue" referent="77">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">elbow_l_jnt_Initial</string>
@@ -1637,7 +1637,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="161">
+			<Item class="CFrameValue" referent="78">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">carpal_l_jnt_Composited</string>
@@ -1659,7 +1659,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="162">
+			<Item class="CFrameValue" referent="79">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">carpal_l_jnt_Original</string>
@@ -1681,7 +1681,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="163">
+			<Item class="CFrameValue" referent="80">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">carpal_l_jnt_Initial</string>
@@ -1703,7 +1703,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="164">
+			<Item class="CFrameValue" referent="81">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballFront_l_jnt_Composited</string>
@@ -1725,7 +1725,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="165">
+			<Item class="CFrameValue" referent="82">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballFront_l_jnt_Original</string>
@@ -1747,7 +1747,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="166">
+			<Item class="CFrameValue" referent="83">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballFront_l_jnt_Initial</string>
@@ -1769,7 +1769,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="167">
+			<Item class="CFrameValue" referent="84">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeFront_l_jnt_Composited</string>
@@ -1791,7 +1791,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="168">
+			<Item class="CFrameValue" referent="85">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeFront_l_jnt_Original</string>
@@ -1813,7 +1813,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="169">
+			<Item class="CFrameValue" referent="86">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeFront_l_jnt_Initial</string>
@@ -1835,7 +1835,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="170">
+			<Item class="CFrameValue" referent="87">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulderUp_l_jnt_Composited</string>
@@ -1857,7 +1857,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="171">
+			<Item class="CFrameValue" referent="88">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulderUp_l_jnt_Original</string>
@@ -1879,7 +1879,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="172">
+			<Item class="CFrameValue" referent="89">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulderUp_l_jnt_Initial</string>
@@ -1901,7 +1901,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="173">
+			<Item class="CFrameValue" referent="90">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulder_l_jnt_Composited</string>
@@ -1923,7 +1923,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="174">
+			<Item class="CFrameValue" referent="91">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulder_l_jnt_Original</string>
@@ -1945,7 +1945,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="175">
+			<Item class="CFrameValue" referent="92">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulder_l_jnt_Initial</string>
@@ -1967,7 +1967,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="176">
+			<Item class="CFrameValue" referent="93">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_elbow_l_jnt_Composited</string>
@@ -1989,7 +1989,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="177">
+			<Item class="CFrameValue" referent="94">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_elbow_l_jnt_Original</string>
@@ -2011,7 +2011,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="178">
+			<Item class="CFrameValue" referent="95">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_elbow_l_jnt_Initial</string>
@@ -2033,7 +2033,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="179">
+			<Item class="CFrameValue" referent="96">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_carpal_l_jnt_Composited</string>
@@ -2055,7 +2055,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="180">
+			<Item class="CFrameValue" referent="97">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_carpal_l_jnt_Original</string>
@@ -2077,7 +2077,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="181">
+			<Item class="CFrameValue" referent="98">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_carpal_l_jnt_Initial</string>
@@ -2099,7 +2099,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="182">
+			<Item class="CFrameValue" referent="99">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballFront_l_jnt_Composited</string>
@@ -2121,7 +2121,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="183">
+			<Item class="CFrameValue" referent="100">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballFront_l_jnt_Original</string>
@@ -2143,7 +2143,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="184">
+			<Item class="CFrameValue" referent="101">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballFront_l_jnt_Initial</string>
@@ -2165,7 +2165,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="185">
+			<Item class="CFrameValue" referent="102">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeFront_l_jnt_Composited</string>
@@ -2187,7 +2187,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="186">
+			<Item class="CFrameValue" referent="103">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeFront_l_jnt_Original</string>
@@ -2209,7 +2209,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="187">
+			<Item class="CFrameValue" referent="104">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeFront_l_jnt_Initial</string>
@@ -2231,7 +2231,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="188">
+			<Item class="CFrameValue" referent="105">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulderUp_r_jnt_Composited</string>
@@ -2253,7 +2253,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="189">
+			<Item class="CFrameValue" referent="106">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulderUp_r_jnt_Original</string>
@@ -2275,7 +2275,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="190">
+			<Item class="CFrameValue" referent="107">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulderUp_r_jnt_Initial</string>
@@ -2297,7 +2297,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="191">
+			<Item class="CFrameValue" referent="108">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulder_r_jnt_Composited</string>
@@ -2319,7 +2319,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="192">
+			<Item class="CFrameValue" referent="109">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulder_r_jnt_Original</string>
@@ -2341,7 +2341,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="193">
+			<Item class="CFrameValue" referent="110">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">shoulder_r_jnt_Initial</string>
@@ -2363,7 +2363,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="194">
+			<Item class="CFrameValue" referent="111">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">elbow_r_jnt_Composited</string>
@@ -2385,7 +2385,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="195">
+			<Item class="CFrameValue" referent="112">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">elbow_r_jnt_Original</string>
@@ -2407,7 +2407,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="196">
+			<Item class="CFrameValue" referent="113">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">elbow_r_jnt_Initial</string>
@@ -2429,7 +2429,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="197">
+			<Item class="CFrameValue" referent="114">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">carpal_r_jnt_Composited</string>
@@ -2451,7 +2451,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="198">
+			<Item class="CFrameValue" referent="115">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">carpal_r_jnt_Original</string>
@@ -2473,7 +2473,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="199">
+			<Item class="CFrameValue" referent="116">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">carpal_r_jnt_Initial</string>
@@ -2495,7 +2495,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="200">
+			<Item class="CFrameValue" referent="117">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballFront_r_jnt_Composited</string>
@@ -2517,7 +2517,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="201">
+			<Item class="CFrameValue" referent="118">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballFront_r_jnt_Original</string>
@@ -2539,7 +2539,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="202">
+			<Item class="CFrameValue" referent="119">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballFront_r_jnt_Initial</string>
@@ -2561,7 +2561,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="203">
+			<Item class="CFrameValue" referent="120">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeFront_r_jnt_Composited</string>
@@ -2583,7 +2583,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="204">
+			<Item class="CFrameValue" referent="121">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeFront_r_jnt_Original</string>
@@ -2605,7 +2605,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="205">
+			<Item class="CFrameValue" referent="122">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeFront_r_jnt_Initial</string>
@@ -2627,7 +2627,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="206">
+			<Item class="CFrameValue" referent="123">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulderUp_r_jnt_Composited</string>
@@ -2649,7 +2649,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="207">
+			<Item class="CFrameValue" referent="124">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulderUp_r_jnt_Original</string>
@@ -2671,7 +2671,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="208">
+			<Item class="CFrameValue" referent="125">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulderUp_r_jnt_Initial</string>
@@ -2693,7 +2693,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="209">
+			<Item class="CFrameValue" referent="126">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulder_r_jnt_Composited</string>
@@ -2715,7 +2715,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="210">
+			<Item class="CFrameValue" referent="127">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulder_r_jnt_Original</string>
@@ -2737,7 +2737,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="211">
+			<Item class="CFrameValue" referent="128">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_shoulder_r_jnt_Initial</string>
@@ -2759,7 +2759,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="212">
+			<Item class="CFrameValue" referent="129">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_elbow_r_jnt_Composited</string>
@@ -2781,7 +2781,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="213">
+			<Item class="CFrameValue" referent="130">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_elbow_r_jnt_Original</string>
@@ -2803,7 +2803,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="214">
+			<Item class="CFrameValue" referent="131">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_elbow_r_jnt_Initial</string>
@@ -2825,7 +2825,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="215">
+			<Item class="CFrameValue" referent="132">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_carpal_r_jnt_Composited</string>
@@ -2847,7 +2847,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="216">
+			<Item class="CFrameValue" referent="133">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_carpal_r_jnt_Original</string>
@@ -2869,7 +2869,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="217">
+			<Item class="CFrameValue" referent="134">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_carpal_r_jnt_Initial</string>
@@ -2891,7 +2891,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="218">
+			<Item class="CFrameValue" referent="135">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballFront_r_jnt_Composited</string>
@@ -2913,7 +2913,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="219">
+			<Item class="CFrameValue" referent="136">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballFront_r_jnt_Original</string>
@@ -2935,7 +2935,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="220">
+			<Item class="CFrameValue" referent="137">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballFront_r_jnt_Initial</string>
@@ -2957,7 +2957,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="221">
+			<Item class="CFrameValue" referent="138">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeFront_r_jnt_Composited</string>
@@ -2979,7 +2979,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="222">
+			<Item class="CFrameValue" referent="139">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeFront_r_jnt_Original</string>
@@ -3001,7 +3001,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="223">
+			<Item class="CFrameValue" referent="140">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeFront_r_jnt_Initial</string>
@@ -3023,7 +3023,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="224">
+			<Item class="CFrameValue" referent="141">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">pelvis_c_jnt_Composited</string>
@@ -3045,7 +3045,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="225">
+			<Item class="CFrameValue" referent="142">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">pelvis_c_jnt_Original</string>
@@ -3067,7 +3067,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="226">
+			<Item class="CFrameValue" referent="143">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">pelvis_c_jnt_Initial</string>
@@ -3089,7 +3089,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="227">
+			<Item class="CFrameValue" referent="144">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail01_c_jnt_Composited</string>
@@ -3111,7 +3111,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="228">
+			<Item class="CFrameValue" referent="145">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail01_c_jnt_Original</string>
@@ -3133,7 +3133,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="229">
+			<Item class="CFrameValue" referent="146">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail01_c_jnt_Initial</string>
@@ -3155,7 +3155,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="230">
+			<Item class="CFrameValue" referent="147">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail02_c_jnt_Composited</string>
@@ -3177,7 +3177,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="231">
+			<Item class="CFrameValue" referent="148">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail02_c_jnt_Original</string>
@@ -3199,7 +3199,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="232">
+			<Item class="CFrameValue" referent="149">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail02_c_jnt_Initial</string>
@@ -3221,7 +3221,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="233">
+			<Item class="CFrameValue" referent="150">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail03_c_jnt_Composited</string>
@@ -3243,7 +3243,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="234">
+			<Item class="CFrameValue" referent="151">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail03_c_jnt_Original</string>
@@ -3265,7 +3265,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="235">
+			<Item class="CFrameValue" referent="152">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail03_c_jnt_Initial</string>
@@ -3287,7 +3287,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="236">
+			<Item class="CFrameValue" referent="153">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail04_c_jnt_Composited</string>
@@ -3309,7 +3309,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="237">
+			<Item class="CFrameValue" referent="154">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail04_c_jnt_Original</string>
@@ -3331,7 +3331,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="238">
+			<Item class="CFrameValue" referent="155">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tail04_c_jnt_Initial</string>
@@ -3353,7 +3353,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="239">
+			<Item class="CFrameValue" referent="156">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">thigh_l_jnt_Composited</string>
@@ -3375,7 +3375,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="240">
+			<Item class="CFrameValue" referent="157">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">thigh_l_jnt_Original</string>
@@ -3397,7 +3397,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="241">
+			<Item class="CFrameValue" referent="158">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">thigh_l_jnt_Initial</string>
@@ -3419,7 +3419,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="242">
+			<Item class="CFrameValue" referent="159">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">knee_l_jnt_Composited</string>
@@ -3441,7 +3441,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="243">
+			<Item class="CFrameValue" referent="160">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">knee_l_jnt_Original</string>
@@ -3463,7 +3463,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="244">
+			<Item class="CFrameValue" referent="161">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">knee_l_jnt_Initial</string>
@@ -3485,7 +3485,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="245">
+			<Item class="CFrameValue" referent="162">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tarsal_l_jnt_Composited</string>
@@ -3507,7 +3507,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="246">
+			<Item class="CFrameValue" referent="163">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tarsal_l_jnt_Original</string>
@@ -3529,7 +3529,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="247">
+			<Item class="CFrameValue" referent="164">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tarsal_l_jnt_Initial</string>
@@ -3551,7 +3551,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="248">
+			<Item class="CFrameValue" referent="165">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballBack_l_jnt_Composited</string>
@@ -3573,7 +3573,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="249">
+			<Item class="CFrameValue" referent="166">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballBack_l_jnt_Original</string>
@@ -3595,7 +3595,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="250">
+			<Item class="CFrameValue" referent="167">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballBack_l_jnt_Initial</string>
@@ -3617,7 +3617,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="251">
+			<Item class="CFrameValue" referent="168">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeBack_l_jnt_Composited</string>
@@ -3639,7 +3639,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="252">
+			<Item class="CFrameValue" referent="169">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeBack_l_jnt_Original</string>
@@ -3661,7 +3661,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="253">
+			<Item class="CFrameValue" referent="170">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeBack_l_jnt_Initial</string>
@@ -3683,7 +3683,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="254">
+			<Item class="CFrameValue" referent="171">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_thigh_l_jnt_Composited</string>
@@ -3705,7 +3705,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="255">
+			<Item class="CFrameValue" referent="172">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_thigh_l_jnt_Original</string>
@@ -3727,7 +3727,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="256">
+			<Item class="CFrameValue" referent="173">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_thigh_l_jnt_Initial</string>
@@ -3749,7 +3749,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="257">
+			<Item class="CFrameValue" referent="174">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_knee_l_jnt_Composited</string>
@@ -3771,7 +3771,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="258">
+			<Item class="CFrameValue" referent="175">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_knee_l_jnt_Original</string>
@@ -3793,7 +3793,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="259">
+			<Item class="CFrameValue" referent="176">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_knee_l_jnt_Initial</string>
@@ -3815,7 +3815,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="260">
+			<Item class="CFrameValue" referent="177">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_tarsal_l_jnt_Composited</string>
@@ -3837,7 +3837,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="261">
+			<Item class="CFrameValue" referent="178">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_tarsal_l_jnt_Original</string>
@@ -3859,7 +3859,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="262">
+			<Item class="CFrameValue" referent="179">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_tarsal_l_jnt_Initial</string>
@@ -3881,7 +3881,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="263">
+			<Item class="CFrameValue" referent="180">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballBack_l_jnt_Composited</string>
@@ -3903,7 +3903,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="264">
+			<Item class="CFrameValue" referent="181">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballBack_l_jnt_Original</string>
@@ -3925,7 +3925,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="265">
+			<Item class="CFrameValue" referent="182">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballBack_l_jnt_Initial</string>
@@ -3947,7 +3947,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="266">
+			<Item class="CFrameValue" referent="183">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeBack_l_jnt_Composited</string>
@@ -3969,7 +3969,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="267">
+			<Item class="CFrameValue" referent="184">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeBack_l_jnt_Original</string>
@@ -3991,7 +3991,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="268">
+			<Item class="CFrameValue" referent="185">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeBack_l_jnt_Initial</string>
@@ -4013,7 +4013,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="269">
+			<Item class="CFrameValue" referent="186">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">thigh_r_jnt_Composited</string>
@@ -4035,7 +4035,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="270">
+			<Item class="CFrameValue" referent="187">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">thigh_r_jnt_Original</string>
@@ -4057,7 +4057,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="271">
+			<Item class="CFrameValue" referent="188">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">thigh_r_jnt_Initial</string>
@@ -4079,7 +4079,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="272">
+			<Item class="CFrameValue" referent="189">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">knee_r_jnt_Composited</string>
@@ -4101,7 +4101,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="273">
+			<Item class="CFrameValue" referent="190">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">knee_r_jnt_Original</string>
@@ -4123,7 +4123,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="274">
+			<Item class="CFrameValue" referent="191">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">knee_r_jnt_Initial</string>
@@ -4145,7 +4145,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="275">
+			<Item class="CFrameValue" referent="192">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tarsal_r_jnt_Composited</string>
@@ -4167,7 +4167,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="276">
+			<Item class="CFrameValue" referent="193">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tarsal_r_jnt_Original</string>
@@ -4189,7 +4189,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="277">
+			<Item class="CFrameValue" referent="194">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">tarsal_r_jnt_Initial</string>
@@ -4211,7 +4211,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="278">
+			<Item class="CFrameValue" referent="195">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballBack_r_jnt_Composited</string>
@@ -4233,7 +4233,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="279">
+			<Item class="CFrameValue" referent="196">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballBack_r_jnt_Original</string>
@@ -4255,7 +4255,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="280">
+			<Item class="CFrameValue" referent="197">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">ballBack_r_jnt_Initial</string>
@@ -4277,7 +4277,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="281">
+			<Item class="CFrameValue" referent="198">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeBack_r_jnt_Composited</string>
@@ -4299,7 +4299,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="282">
+			<Item class="CFrameValue" referent="199">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeBack_r_jnt_Original</string>
@@ -4321,7 +4321,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="283">
+			<Item class="CFrameValue" referent="200">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">toeBack_r_jnt_Initial</string>
@@ -4343,7 +4343,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="284">
+			<Item class="CFrameValue" referent="201">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_thigh_r_jnt_Composited</string>
@@ -4365,7 +4365,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="285">
+			<Item class="CFrameValue" referent="202">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_thigh_r_jnt_Original</string>
@@ -4387,7 +4387,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="286">
+			<Item class="CFrameValue" referent="203">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_thigh_r_jnt_Initial</string>
@@ -4409,7 +4409,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="287">
+			<Item class="CFrameValue" referent="204">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_knee_r_jnt_Composited</string>
@@ -4431,7 +4431,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="288">
+			<Item class="CFrameValue" referent="205">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_knee_r_jnt_Original</string>
@@ -4453,7 +4453,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="289">
+			<Item class="CFrameValue" referent="206">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_knee_r_jnt_Initial</string>
@@ -4475,7 +4475,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="290">
+			<Item class="CFrameValue" referent="207">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_tarsal_r_jnt_Composited</string>
@@ -4497,7 +4497,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="291">
+			<Item class="CFrameValue" referent="208">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_tarsal_r_jnt_Original</string>
@@ -4519,7 +4519,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="292">
+			<Item class="CFrameValue" referent="209">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_tarsal_r_jnt_Initial</string>
@@ -4541,7 +4541,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="293">
+			<Item class="CFrameValue" referent="210">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballBack_r_jnt_Composited</string>
@@ -4563,7 +4563,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="294">
+			<Item class="CFrameValue" referent="211">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballBack_r_jnt_Original</string>
@@ -4585,7 +4585,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="295">
+			<Item class="CFrameValue" referent="212">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_ballBack_r_jnt_Initial</string>
@@ -4607,7 +4607,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="296">
+			<Item class="CFrameValue" referent="213">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeBack_r_jnt_Composited</string>
@@ -4629,7 +4629,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="297">
+			<Item class="CFrameValue" referent="214">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeBack_r_jnt_Original</string>
@@ -4651,7 +4651,7 @@
 					</CoordinateFrame>
 				</Properties>
 			</Item>
-			<Item class="CFrameValue" referent="298">
+			<Item class="CFrameValue" referent="215">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<string name="Name">driver_toeBack_r_jnt_Initial</string>
@@ -4674,7 +4674,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="MeshPart" referent="87">
+		<Item class="MeshPart" referent="4">
 			<Properties>
 				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
@@ -4687,9 +4687,9 @@
 				<token name="BottomSurface">0</token>
 				<token name="BottomSurfaceInput">0</token>
 				<CoordinateFrame name="CFrame">
-					<X>18.8305435</X>
-					<Y>3.33878136</Y>
-					<Z>-5.18843222</Z>
+					<X>0.0805439949</X>
+					<Y>3.81069088</Y>
+					<Z>0.0615677834</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -4700,7 +4700,8 @@
 					<R21>0</R21>
 					<R22>1</R22>
 				</CoordinateFrame>
-				<bool name="CanCollide">true</bool>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanQuery">true</bool>
 				<bool name="CanTouch">true</bool>
 				<bool name="CastShadow">true</bool>
 				<int name="CollisionGroupId">0</int>
@@ -4783,7 +4784,7 @@
 					<Z>4.30727673</Z>
 				</Vector3>
 			</Properties>
-			<Item class="Bone" referent="299">
+			<Item class="Bone" referent="216">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<CoordinateFrame name="CFrame">
@@ -4805,7 +4806,7 @@
 					<BinaryString name="Tags"></BinaryString>
 					<bool name="Visible">false</bool>
 				</Properties>
-				<Item class="Bone" referent="300">
+				<Item class="Bone" referent="217">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
@@ -4827,7 +4828,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<bool name="Visible">false</bool>
 					</Properties>
-					<Item class="Bone" referent="301">
+					<Item class="Bone" referent="218">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<CoordinateFrame name="CFrame">
@@ -4849,7 +4850,7 @@
 							<BinaryString name="Tags"></BinaryString>
 							<bool name="Visible">false</bool>
 						</Properties>
-						<Item class="Bone" referent="302">
+						<Item class="Bone" referent="219">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<CoordinateFrame name="CFrame">
@@ -4871,7 +4872,7 @@
 								<BinaryString name="Tags"></BinaryString>
 								<bool name="Visible">false</bool>
 							</Properties>
-							<Item class="Bone" referent="303">
+							<Item class="Bone" referent="220">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<CoordinateFrame name="CFrame">
@@ -4893,7 +4894,7 @@
 									<BinaryString name="Tags"></BinaryString>
 									<bool name="Visible">false</bool>
 								</Properties>
-								<Item class="Bone" referent="304">
+								<Item class="Bone" referent="221">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<CoordinateFrame name="CFrame">
@@ -4915,7 +4916,7 @@
 										<BinaryString name="Tags"></BinaryString>
 										<bool name="Visible">false</bool>
 									</Properties>
-									<Item class="Bone" referent="305">
+									<Item class="Bone" referent="222">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<CoordinateFrame name="CFrame">
@@ -4937,7 +4938,7 @@
 											<BinaryString name="Tags"></BinaryString>
 											<bool name="Visible">false</bool>
 										</Properties>
-										<Item class="Bone" referent="306">
+										<Item class="Bone" referent="223">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<CoordinateFrame name="CFrame">
@@ -4959,7 +4960,7 @@
 												<BinaryString name="Tags"></BinaryString>
 												<bool name="Visible">false</bool>
 											</Properties>
-											<Item class="Bone" referent="307">
+											<Item class="Bone" referent="224">
 												<Properties>
 													<BinaryString name="AttributesSerialize"></BinaryString>
 													<CoordinateFrame name="CFrame">
@@ -4984,7 +4985,7 @@
 											</Item>
 										</Item>
 									</Item>
-									<Item class="Bone" referent="308">
+									<Item class="Bone" referent="225">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<CoordinateFrame name="CFrame">
@@ -5006,7 +5007,7 @@
 											<BinaryString name="Tags"></BinaryString>
 											<bool name="Visible">false</bool>
 										</Properties>
-										<Item class="Bone" referent="309">
+										<Item class="Bone" referent="226">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<CoordinateFrame name="CFrame">
@@ -5028,7 +5029,7 @@
 												<BinaryString name="Tags"></BinaryString>
 												<bool name="Visible">false</bool>
 											</Properties>
-											<Item class="Bone" referent="310">
+											<Item class="Bone" referent="227">
 												<Properties>
 													<BinaryString name="AttributesSerialize"></BinaryString>
 													<CoordinateFrame name="CFrame">
@@ -5053,7 +5054,7 @@
 											</Item>
 										</Item>
 									</Item>
-									<Item class="Bone" referent="311">
+									<Item class="Bone" referent="228">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<CoordinateFrame name="CFrame">
@@ -5075,7 +5076,7 @@
 											<BinaryString name="Tags"></BinaryString>
 											<bool name="Visible">false</bool>
 										</Properties>
-										<Item class="Bone" referent="312">
+										<Item class="Bone" referent="229">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<CoordinateFrame name="CFrame">
@@ -5098,7 +5099,7 @@
 												<bool name="Visible">false</bool>
 											</Properties>
 										</Item>
-										<Item class="Bone" referent="313">
+										<Item class="Bone" referent="230">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<CoordinateFrame name="CFrame">
@@ -5120,7 +5121,7 @@
 												<BinaryString name="Tags"></BinaryString>
 												<bool name="Visible">false</bool>
 											</Properties>
-											<Item class="Bone" referent="314">
+											<Item class="Bone" referent="231">
 												<Properties>
 													<BinaryString name="AttributesSerialize"></BinaryString>
 													<CoordinateFrame name="CFrame">
@@ -5147,7 +5148,7 @@
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Bone" referent="315">
+							<Item class="Bone" referent="232">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<CoordinateFrame name="CFrame">
@@ -5169,7 +5170,7 @@
 									<BinaryString name="Tags"></BinaryString>
 									<bool name="Visible">false</bool>
 								</Properties>
-								<Item class="Bone" referent="316">
+								<Item class="Bone" referent="233">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<CoordinateFrame name="CFrame">
@@ -5191,7 +5192,7 @@
 										<BinaryString name="Tags"></BinaryString>
 										<bool name="Visible">false</bool>
 									</Properties>
-									<Item class="Bone" referent="317">
+									<Item class="Bone" referent="234">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<CoordinateFrame name="CFrame">
@@ -5213,7 +5214,7 @@
 											<BinaryString name="Tags"></BinaryString>
 											<bool name="Visible">false</bool>
 										</Properties>
-										<Item class="Bone" referent="318">
+										<Item class="Bone" referent="235">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<CoordinateFrame name="CFrame">
@@ -5235,7 +5236,7 @@
 												<BinaryString name="Tags"></BinaryString>
 												<bool name="Visible">false</bool>
 											</Properties>
-											<Item class="Bone" referent="319">
+											<Item class="Bone" referent="236">
 												<Properties>
 													<BinaryString name="AttributesSerialize"></BinaryString>
 													<CoordinateFrame name="CFrame">
@@ -5257,7 +5258,7 @@
 													<BinaryString name="Tags"></BinaryString>
 													<bool name="Visible">false</bool>
 												</Properties>
-												<Item class="Bone" referent="320">
+												<Item class="Bone" referent="237">
 													<Properties>
 														<BinaryString name="AttributesSerialize"></BinaryString>
 														<CoordinateFrame name="CFrame">
@@ -5285,7 +5286,7 @@
 									</Item>
 								</Item>
 							</Item>
-							<Item class="Bone" referent="321">
+							<Item class="Bone" referent="238">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<CoordinateFrame name="CFrame">
@@ -5307,7 +5308,7 @@
 									<BinaryString name="Tags"></BinaryString>
 									<bool name="Visible">false</bool>
 								</Properties>
-								<Item class="Bone" referent="322">
+								<Item class="Bone" referent="239">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<CoordinateFrame name="CFrame">
@@ -5331,7 +5332,7 @@
 									</Properties>
 								</Item>
 							</Item>
-							<Item class="Bone" referent="323">
+							<Item class="Bone" referent="240">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<CoordinateFrame name="CFrame">
@@ -5353,7 +5354,7 @@
 									<BinaryString name="Tags"></BinaryString>
 									<bool name="Visible">false</bool>
 								</Properties>
-								<Item class="Bone" referent="324">
+								<Item class="Bone" referent="241">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<CoordinateFrame name="CFrame">
@@ -5375,7 +5376,7 @@
 										<BinaryString name="Tags"></BinaryString>
 										<bool name="Visible">false</bool>
 									</Properties>
-									<Item class="Bone" referent="325">
+									<Item class="Bone" referent="242">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<CoordinateFrame name="CFrame">
@@ -5397,7 +5398,7 @@
 											<BinaryString name="Tags"></BinaryString>
 											<bool name="Visible">false</bool>
 										</Properties>
-										<Item class="Bone" referent="326">
+										<Item class="Bone" referent="243">
 											<Properties>
 												<BinaryString name="AttributesSerialize"></BinaryString>
 												<CoordinateFrame name="CFrame">
@@ -5419,7 +5420,7 @@
 												<BinaryString name="Tags"></BinaryString>
 												<bool name="Visible">false</bool>
 											</Properties>
-											<Item class="Bone" referent="327">
+											<Item class="Bone" referent="244">
 												<Properties>
 													<BinaryString name="AttributesSerialize"></BinaryString>
 													<CoordinateFrame name="CFrame">
@@ -5441,7 +5442,7 @@
 													<BinaryString name="Tags"></BinaryString>
 													<bool name="Visible">false</bool>
 												</Properties>
-												<Item class="Bone" referent="328">
+												<Item class="Bone" referent="245">
 													<Properties>
 														<BinaryString name="AttributesSerialize"></BinaryString>
 														<CoordinateFrame name="CFrame">
@@ -5472,7 +5473,7 @@
 						</Item>
 					</Item>
 				</Item>
-				<Item class="Bone" referent="329">
+				<Item class="Bone" referent="246">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
@@ -5494,7 +5495,7 @@
 						<BinaryString name="Tags"></BinaryString>
 						<bool name="Visible">false</bool>
 					</Properties>
-					<Item class="Bone" referent="330">
+					<Item class="Bone" referent="247">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<CoordinateFrame name="CFrame">
@@ -5516,7 +5517,7 @@
 							<BinaryString name="Tags"></BinaryString>
 							<bool name="Visible">false</bool>
 						</Properties>
-						<Item class="Bone" referent="331">
+						<Item class="Bone" referent="248">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<CoordinateFrame name="CFrame">
@@ -5538,7 +5539,7 @@
 								<BinaryString name="Tags"></BinaryString>
 								<bool name="Visible">false</bool>
 							</Properties>
-							<Item class="Bone" referent="332">
+							<Item class="Bone" referent="249">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<CoordinateFrame name="CFrame">
@@ -5560,7 +5561,7 @@
 									<BinaryString name="Tags"></BinaryString>
 									<bool name="Visible">false</bool>
 								</Properties>
-								<Item class="Bone" referent="333">
+								<Item class="Bone" referent="250">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<CoordinateFrame name="CFrame">
@@ -5568,7 +5569,7 @@
 											<Y>2.38418579e-07</Y>
 											<Z>1.31217791e-16</Z>
 											<R00>1</R00>
-											<R01>8.40779079e-45</R01>
+											<R01>0</R01>
 											<R02>-1.05879093e-22</R02>
 											<R10>0</R10>
 											<R11>1</R11>
@@ -5586,7 +5587,7 @@
 							</Item>
 						</Item>
 					</Item>
-					<Item class="Bone" referent="334">
+					<Item class="Bone" referent="251">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<CoordinateFrame name="CFrame">
@@ -5608,7 +5609,7 @@
 							<BinaryString name="Tags"></BinaryString>
 							<bool name="Visible">false</bool>
 						</Properties>
-						<Item class="Bone" referent="335">
+						<Item class="Bone" referent="252">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<CoordinateFrame name="CFrame">
@@ -5630,7 +5631,7 @@
 								<BinaryString name="Tags"></BinaryString>
 								<bool name="Visible">false</bool>
 							</Properties>
-							<Item class="Bone" referent="336">
+							<Item class="Bone" referent="253">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<CoordinateFrame name="CFrame">
@@ -5652,7 +5653,7 @@
 									<BinaryString name="Tags"></BinaryString>
 									<bool name="Visible">false</bool>
 								</Properties>
-								<Item class="Bone" referent="337">
+								<Item class="Bone" referent="254">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<CoordinateFrame name="CFrame">
@@ -5674,7 +5675,7 @@
 										<BinaryString name="Tags"></BinaryString>
 										<bool name="Visible">false</bool>
 									</Properties>
-									<Item class="Bone" referent="338">
+									<Item class="Bone" referent="255">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<CoordinateFrame name="CFrame">
@@ -5701,7 +5702,7 @@
 							</Item>
 						</Item>
 					</Item>
-					<Item class="Bone" referent="339">
+					<Item class="Bone" referent="256">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<CoordinateFrame name="CFrame">
@@ -5723,7 +5724,7 @@
 							<BinaryString name="Tags"></BinaryString>
 							<bool name="Visible">false</bool>
 						</Properties>
-						<Item class="Bone" referent="340">
+						<Item class="Bone" referent="257">
 							<Properties>
 								<BinaryString name="AttributesSerialize"></BinaryString>
 								<CoordinateFrame name="CFrame">
@@ -5745,7 +5746,7 @@
 								<BinaryString name="Tags"></BinaryString>
 								<bool name="Visible">false</bool>
 							</Properties>
-							<Item class="Bone" referent="341">
+							<Item class="Bone" referent="258">
 								<Properties>
 									<BinaryString name="AttributesSerialize"></BinaryString>
 									<CoordinateFrame name="CFrame">
@@ -5767,7 +5768,7 @@
 									<BinaryString name="Tags"></BinaryString>
 									<bool name="Visible">false</bool>
 								</Properties>
-								<Item class="Bone" referent="342">
+								<Item class="Bone" referent="259">
 									<Properties>
 										<BinaryString name="AttributesSerialize"></BinaryString>
 										<CoordinateFrame name="CFrame">
@@ -5789,7 +5790,7 @@
 										<BinaryString name="Tags"></BinaryString>
 										<bool name="Visible">false</bool>
 									</Properties>
-									<Item class="Bone" referent="343">
+									<Item class="Bone" referent="260">
 										<Properties>
 											<BinaryString name="AttributesSerialize"></BinaryString>
 											<CoordinateFrame name="CFrame">
@@ -5818,7 +5819,7 @@
 					</Item>
 				</Item>
 			</Item>
-			<Item class="SurfaceAppearance" referent="344">
+			<Item class="SurfaceAppearance" referent="261">
 				<Properties>
 					<token name="AlphaMode">0</token>
 					<BinaryString name="AttributesSerialize"></BinaryString>
@@ -5833,7 +5834,7 @@
 				</Properties>
 			</Item>
 		</Item>
-		<Item class="AnimationController" referent="345">
+		<Item class="AnimationController" referent="262">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<string name="Name">AnimationController</string>
@@ -5841,40 +5842,123 @@
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
 		</Item>
-		<Item class="Humanoid" referent="346">
+		<Item class="Part" referent="263">
 			<Properties>
+				<bool name="Anchored">false</bool>
 				<BinaryString name="AttributesSerialize"></BinaryString>
-				<bool name="AutoJumpEnabled">true</bool>
-				<bool name="AutoRotate">true</bool>
-				<bool name="AutomaticScalingEnabled">true</bool>
-				<bool name="BreakJointsOnDeath">true</bool>
-				<token name="CollisionType">0</token>
-				<token name="DisplayDistanceType">0</token>
-				<string name="DisplayName"></string>
-				<float name="HealthDisplayDistance">100</float>
-				<token name="HealthDisplayType">0</token>
-				<float name="Health_XML">100</float>
-				<float name="HipHeight">0</float>
-				<Vector3 name="InternalBodyScale">
-					<X>1</X>
-					<Y>1</Y>
-					<Z>1</Z>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0.125</X>
+					<Y>3.75003791</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<bool name="CastShadow">true</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Hitbox</string>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
 				</Vector3>
-				<float name="InternalHeadScale">1</float>
-				<float name="JumpHeight">7.19999981</float>
-				<float name="JumpPower">50</float>
-				<float name="MaxHealth">100</float>
-				<float name="MaxSlopeAngle">89</float>
-				<string name="Name">Humanoid</string>
-				<float name="NameDisplayDistance">100</float>
-				<token name="NameOcclusion">2</token>
-				<bool name="RequiresNeck">true</bool>
-				<token name="RigType">0</token>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
-				<bool name="UseJumpPower">true</bool>
-				<float name="WalkSpeed">16</float>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">1</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>1.75</X>
+					<Y>3.5</Y>
+					<Z>4.5</Z>
+				</Vector3>
 			</Properties>
+			<Item class="WeldConstraint" referent="264">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<CoordinateFrame name="CFrame0">
+						<X>-0.0444560051</X>
+						<Y>0.0606529713</Y>
+						<Z>0.0615677834</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">WeldConstraint</string>
+					<Ref name="Part0Internal">263</Ref>
+					<Ref name="Part1Internal">4</Ref>
+					<int64 name="SourceAssetId">-1</int64>
+					<int name="State">3</int>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
 		</Item>
 	</Item>
 	<SharedStrings>

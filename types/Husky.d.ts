@@ -1,4 +1,8 @@
 type Husky = Model & {
+	AnimationController: AnimationController;
+	Hitbox: Part & {
+		WeldConstraint: WeldConstraint;
+	};
 	husky_c_geo: MeshPart & {
 		SurfaceAppearance: SurfaceAppearance;
 		root_c_jnt: Bone & {
@@ -82,7 +86,6 @@ type Husky = Model & {
 			};
 		};
 	};
-	Humanoid: Humanoid;
 	InitialPoses: Folder & {
 		ballFront_l_jnt_Initial: CFrameValue;
 		driver_knee_l_jnt_Original: CFrameValue;
@@ -295,5 +298,4 @@ type Husky = Model & {
 		spine01_c_jnt_Original: CFrameValue;
 		driver_shoulderUp_l_jnt_Initial: CFrameValue;
 	};
-	AnimationController: AnimationController;
 }
