@@ -1,5 +1,3 @@
-import {SwordModule} from "./sword/sword"
-import {ZombieModule} from "./zombie/zombie"
+import { makeHello } from "shared/module";
 
-new SwordModule()
-//new ZombieModule()
+print(makeHello("main.server.ts"));

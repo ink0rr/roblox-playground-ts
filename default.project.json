@@ -2,8 +2,7 @@
 	"name": "roblox-ts-game",
 	"globIgnorePaths": [
 		"**/package.json",
-		"**/tsconfig.json",
-		"**/LICENSE.txt"
+		"**/tsconfig.json"
 	],
 	"tree": {
 		"$className": "DataModel",
@@ -23,12 +22,7 @@
 			},
 			"TS": {
 				"$path": "out/shared"
-			},
-			"$path": "out/assets/shared"
-		},
-		"ServerStorage": {
-			"$className": "ServerStorage",
-			"$path": "out/assets/server"
+			}
 		},
 		"StarterPlayer": {
 			"$className": "StarterPlayer",
@@ -43,8 +37,7 @@
 			"$className": "Workspace",
 			"$properties": {
 				"FilteringEnabled": true
-			},
-			"$path": "out/assets/workspace"
+			}
 		},
 		"HttpService": {
 			"$className": "HttpService",

@@ -1,7 +1,4 @@
 /node_modules
 /out
 /include
-/.idea
 *.tsbuildinfo
-*.rbxlx
-*.rbxlx.lock
