@@ -15,6 +15,7 @@
     "@rbxts/types": "^1.0.518"
   },
   "dependencies": {
+    "@rbxts/net": "^2.1.4",
     "@rbxts/roact": "^1.4.0-ts.2",
     "@rbxts/services": "^1.1.5",
     "@typescript-eslint/eslint-plugin": "^4.29.2",
