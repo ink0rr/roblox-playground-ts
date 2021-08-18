@@ -1,4 +1,6 @@
 namespace RoactType {
+	export type Props<T> = { [P in keyof T]?: number };
+
 	export function Instance() {
 		return {
 			Archivable: 0,
