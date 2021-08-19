@@ -21,6 +21,7 @@ export class CoreTextLabel extends Roact.Component<UIProps> {
 	static defaultProps = {
 		BackgroundTransparency: 1,
 		Font: Enum.Font.Antique,
+		TextColor3: Color3.fromRGB(255, 255, 255),
 		TextScaled: true,
 		TextStrokeTransparency: 0,
 	}
