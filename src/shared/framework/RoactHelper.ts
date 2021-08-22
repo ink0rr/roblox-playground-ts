@@ -2,7 +2,7 @@ import Roact from "@rbxts/roact"
 import RoactType from "./RoactType"
 
 namespace RoactHelper {
-	export class RoactBinding<T> {
+	export class Binding<T> {
 		private readonly setter
 		private readonly getter
 
@@ -35,7 +35,7 @@ namespace RoactHelper {
 		return child
 	}
 
-	export function filter<T, U extends RoactType.Props<Instance>>(props: T, filterType: U) {
+	export function filter<T extends RoactType.Props<Instance>>(props: Roact.PropsWithChildren, filterType: T) {
 		const _props = props as unknown as Map<unknown, unknown>
 		const _filterType = filterType as unknown as Map<unknown, unknown>
 		_filterType.forEach((value, key) => {
