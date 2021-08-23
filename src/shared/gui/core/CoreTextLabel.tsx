@@ -1,5 +1,6 @@
 import Roact from "@rbxts/roact"
 import RoactHelper from "shared/framework/RoactHelper"
+import { ThemeContext } from "../context/ThemeContext"
 
 interface UIProps extends Roact.JsxInstance<TextLabel> {}
 
@@ -11,18 +12,23 @@ export class CoreTextLabel extends Roact.Component<UIProps> {
 	}
 	render(){
 		return (
-			<textlabel
-				{...this.props}
+			<ThemeContext.Consumer
+				render={(theme) => {
+					return (
+						<textlabel
+							{...theme.TextTheme}
+							{...this.props}
+						>
+							{this.roactChild}
+						</textlabel>
+					)
+				}}
 			>
-				{this.roactChild}
-			</textlabel>
+			</ThemeContext.Consumer>
 		)
 	}
 	static defaultProps = {
 		BackgroundTransparency: 1,
-		Font: Enum.Font.Antique,
-		TextColor3: Color3.fromRGB(255, 255, 255),
 		TextScaled: true,
-		TextStrokeTransparency: 0,
 	}
 }
